@@ -5,13 +5,13 @@
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
-"brain-calc":"bin/brain-calc.js",
-"brain-gcd":"bin/brain-gcd.js",
-"brain-progression":"bin/brain-progression.js",
-"brain-prime":"bin/brain-prime.js"
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
   "description": "[![Actions Status](https://github.com/ragnariotch-ai/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ragnariotch-ai/frontend-project-44/actions)",
- "homepage": "https://github.com/ragnariotch-ai/frontend-project-44#readme",
+  "homepage": "https://github.com/ragnariotch-ai/frontend-project-44#readme",
   "bugs": {
     "url": "https://github.com/ragnariotch-ai/frontend-project-44/issues"
   },
@@ -26,6 +26,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "globals": "^17.4.0",
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
@@ -33,4 +34,3 @@
     "eslint": "^9.39.4"
   }
 }
-
